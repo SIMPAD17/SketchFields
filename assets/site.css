@@ -1122,6 +1122,36 @@ main {
   font-weight: 500;
 }
 
+/* Black Friday note: remove these rules and the note on the home and pricing pages after 30 Nov 2026. A note under the
+   hero's App Store button and under the prices, with the two offer-code links in a row that wraps on phones. */
+.note.sale {
+  max-width: 600px;
+  margin: 4px 0 18px;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.sale p {
+  margin-bottom: 10px;
+}
+
+.sale strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.sale-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 24px;
+  font-weight: 500;
+}
+
+.sale-links a {
+  display: inline-block;
+  padding: 4px 0;
+}
+
 /* Bands: See it in action, Free and Pro, and the end of the page, on the panel color between sections on the page
    color. A lit band has a soft light from above (dark theme only), and the closing band a glow behind the app icon. */
 .band {
